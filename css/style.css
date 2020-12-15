@@ -695,7 +695,7 @@ section.no-bg, #content.no-bg{
 	padding: 70px;
 }
 .de_light section {
-	background: #ffffff;
+	background: #111; 
 }
 .section-fixed {
 	position: fixed;
