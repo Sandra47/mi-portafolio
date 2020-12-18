@@ -86,10 +86,10 @@ html {
 }
 body {
 	font-family: "Nunito", Arial, Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 	background: #555;
-	color: #ddd;
+	color: #ddd !important;
 	line-height: 1.9em;
 	padding: 0;
 	display: none;
@@ -5503,7 +5503,7 @@ p {
 	margin-bottom: 20px;
 }
 p.intro {
-	color: #555;
+	color: rgb(243, 236, 236);
 	font-size: 16px;
 	line-height: 1.5em;
 }
@@ -7318,9 +7318,14 @@ a.btn-slider:hover {
 	float: left; 
 	width: 150px; 
 }
+.fotoportafolio{
+	width: 199px !important;
+	height: 133px !important;
+}
 /*imagenes icono*/
 .icono-imagenes{
 	width: 80px !important;
 	height: 80px !important;
 	padding: 5px;
 	color: #009900;
+}
